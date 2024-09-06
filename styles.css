@@ -79,7 +79,7 @@ section button:hover {
 
 .resultados-pesquisa {
     width: 60rem;
-    height: 60vh;
+    max-height: 60vh;
     overflow-y: auto;
     margin-top: 1rem;
     padding: 1rem;
@@ -94,6 +94,7 @@ section button:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .item-resultado h2 {
