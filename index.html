@@ -9,28 +9,27 @@
     <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=13wc47z7qRRJ&format=png&color=000000"
         age/x-icon">
     <link rel="icon" href="https://img.icons8.com/?size=100&id=13wc47z7qRRJ&format=png&color=000000">
-
 </head>
 
 <body>
-    <header class="logo-container">
-
-        <img class="logo" src="assets/Studio_Ghibli_logo 1.svg" alt="Logo do Studio Ghibli">
-        <h1>Filmes Studio Ghibli</h1>
-
-    </header>
     <main>
-        <section>
-            <input type="text" placeholder="Digite o nome do filme" id="campo-pesquisa">
-            <button onclick="pesquisar()">Pesquisar</button>
+        <section class="main-section">
+            <div class="logo-container">
+                <img class="logo" src="assets/Studio_Ghibli_logo 1.svg" alt="Logo do Studio Ghibli">
+                <h1>Filmes Studio Ghibli</h1>
+            </div>
+
+            <div class="search-container">
+                <input type="text" placeholder="Digite o nome do filme" id="campo-pesquisa">
+                <button onclick="pesquisar()">Pesquisar</button>
+            </div>
         </section>
 
         <section class="resultados-pesquisa" id="resultados-pesquisa">
 
-
-
         </section>
     </main>
+
     <footer>
         <p>2024 - Filmes Studio Ghibli. Todos os direitos reservados.</p>
         <p>
@@ -43,6 +42,5 @@
     <script src="dados.js"></script>
     <script src="app.js"></script>
 </body>
-
 
 </html>
